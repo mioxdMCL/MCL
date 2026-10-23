@@ -1,0 +1,14 @@
+<Project>
+  <PropertyGroup>
+    <FrameworkPathOverride Condition="'$(MSBuildRuntimeType)' == 'Core'">$(HOME)/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.3/build/.NETFramework/v4.8</FrameworkPathOverride>
+  </PropertyGroup>
+  <ItemGroup Condition="'$(MSBuildRuntimeType)' == 'Core'">
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
+    <Reference Include="netstandard">
+      <HintPath>$(HOME)/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.3/build/.NETFramework/v4.8/Facades/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <HintPath>$(HOME)/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.3/build/.NETFramework/v4.8/Microsoft.VisualBasic.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

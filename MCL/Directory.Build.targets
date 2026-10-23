@@ -1,0 +1,4 @@
+<Project>
+  <Import Project="$(MSBuildExtensionsPath)\Sdks\Microsoft.NET.Sdk.WindowsDesktop\targets\Microsoft.WinFX.targets"
+          Condition="'$(MSBuildRuntimeType)' == 'Core' And Exists('$(MSBuildExtensionsPath)\Sdks\Microsoft.NET.Sdk.WindowsDesktop\targets\Microsoft.WinFX.targets')" />
+</Project>

@@ -1,0 +1,14 @@
+<Grid x:Class="MyCapeItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Name="PanBack" MinHeight="26" Background="{StaticResource ColorBrushSemiTransparent}" UseLayoutRounding="False" SnapsToDevicePixels="False" Focusable="True">
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="26" />
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="1*" />
+    </Grid.ColumnDefinitions>
+    <Ellipse IsHitTestVisible="False" x:Name="ShapeBorder" Grid.Column="0" StrokeThickness="1.1" HorizontalAlignment="Left" VerticalAlignment="Center" Width="18" Height="18" Stroke="{DynamicResource ColorBrush1}" Margin="1,0,0,0" Fill="{StaticResource ColorBrushHalfWhite}" />
+    <Ellipse IsHitTestVisible="False" x:Name="ShapeDot" Grid.Column="0" HorizontalAlignment="Left" VerticalAlignment="Center" Fill="{Binding Stroke, ElementName=ShapeBorder}" Width="0" Height="0" Margin="10,0,0,0" StrokeThickness="0" Opacity="0" />
+    <Image IsHitTestVisible="False" x:Name="ImgCape" Grid.Column="1" Width="96" Height="48" Stretch="UniformToFill" RenderOptions.BitmapScalingMode="NearestNeighbor" Margin="0,2,6,2" Visibility="Collapsed" />
+    <TextBlock IsHitTestVisible="False" x:Name="LabTitle" Grid.Column="2" FontSize="13" Padding="0" Foreground="{DynamicResource ColorBrush1}" HorizontalAlignment="Left" VerticalAlignment="Center" TextTrimming="CharacterEllipsis" />
+</Grid>
