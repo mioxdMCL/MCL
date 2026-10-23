@@ -3,6 +3,7 @@
 个人开发者的 Minecraft 启动器，仅供启动游戏使用。
 
 > 本启动器基于龙腾猫跃的开源代码修改而成，感谢原作者的开源。
+> 原作者主页：https://github.com/LTCatt
 > 原项目地址：https://github.com/Hex-Dragon/PCL2
 
 ## ⚠️ 未成年人消费须知（请家长务必阅读）
@@ -27,7 +28,7 @@
 
 ## 📄 协议许可
 
-- 本启动器基于龙腾猫跃的 [PCL2（Plain Craft Launcher 2）](https://github.com/Hex-Dragon/PCL2) 开源代码修改制作，原始代码的版权归**龙腾猫跃**所有，本仓库遵循 PCL2 原项目的开源协议使用。
-- 在 PCL2 原协议允许范围内的修改部分，归本启动器作者所有。
-- 本项目为非商业用途，仅供学习交流与个人使用。
+- 本启动器基于 [龙腾猫跃](https://github.com/LTCatt) 的 [PCL2（Plain Craft Launcher 2）](https://github.com/Hex-Dragon/PCL2) 开源代码修改制作，原始代码的版权归原作者**龙腾猫跃**所有。
+- 本仓库遵循 PCL2 原项目的使用协议开源，协议全文以 [PCL2 原仓库](https://github.com/Hex-Dragon/PCL2) 发布的版本为准。
+- 未经原作者许可，不得将本项目用于商业用途。
 - 转载或二次分发请注明来源，并附上本仓库与 PCL2 原项目地址。
